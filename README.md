@@ -2,8 +2,8 @@
 
 This workspace contains two PlatformIO projects:
 
-- `TankMonitor` — LoRa transmitter with float sensor and buzzer
-- `HouseNode` — LoRa receiver
+- `TankMonitor` — LoRa transmitter with float sensor
+- `HouseNode` — LoRa receiver with buzzer
 
 Each project is independent. To build/upload/monitor a single module, `cd` into its directory and use the scripts under `scripts/` or run the `platformio` commands shown in each project's README.
 
